@@ -4,8 +4,8 @@
 This project works on the "users_neighborhood_anon.csv" dataset trying to answer the question about who is more likely to be a hateful user. Out of the 100k dataset, only 5k are labeled with either "hateful" or "normal". Thus, by successfully training a good model for the classification task, I will able to make good judgements and predictions for unlabeled data points. Note here that the data exists a class inbalance with way more normal users than hateful users. I use pure logistic regression, naive PCA with logistic regression, featured PCA with logistic regression (proposed in this paper) and decision tree as possible candidate models. Due to the class inbalance, F1 score (combination of recall and precision) and AUC for the ROC curve are used as evaluation method. By a conbination of both unsurpervised and supervised models, the paper aims to identify hateful users on Twitter and create a more harmonious environment. 
 
 # Model
-1. Logistic regression \\
-2. Logistic regression with naive PCA \n
+1. Logistic regression 
+2. Logistic regression with naive PCA 
 3. Logistic regression with featured PCA (BEST)
 4. Decision Tree
 5. XG-boost
