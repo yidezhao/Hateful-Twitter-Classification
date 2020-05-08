@@ -12,3 +12,5 @@ This project works on the "users_neighborhood_anon.csv" dataset trying to answer
 
 # Conclusion
 In this study, we examine the Twitter user dataset aiming to identify hateful users in the unlabeled data. Models are trained in a supervised setting with the 5k labeled data. The best model is the featured PCA with AUC being 0.9778 and F1 score being 0.71. I also testify the hypothesis that having a hateful neighbor is an important feature in predicting hateful Twitter users. Along the analysis, I also find many other interesting features like hearing_empath and furniture_empath. This study hope to use trained model to predict hateful users on Twitter and prevent the spread of inappropriate message at the earliest stage, creating a harmonious environment. 
+
+
